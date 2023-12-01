@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+  align-items: center;
+  padding: 12px 45px 15px 45px;
+  border-radius: 15px;
+  width: 100%;
+  background-color: var(--white);
+}
+
+.list {
+  display: flex;
+  align-items: center;
+}
+
+.item:not(:last-child) {
+  margin: 0 45px 0 0;
+}
+
+.link {
+  font-family: "Muller", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--darkGray);
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  margin: 0 0 0 auto;
+}
+
+.buttonTour {
+  margin: 0 40px 0 0;
+}

@@ -1,0 +1,70 @@
+@font-face {
+  font-family: "Muller";
+  src: local("Muller-Regular"), url("assets/fonts/Muller-Regular.woff2") format("woff2"), url("assets/fonts/Muller-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Muller";
+  src: local("Muller-Medium"), url("assets/fonts/Muller-Medium.woff2") format("woff2"), url("assets/fonts/Muller-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Muller";
+  src: local("Muller-Bold"), url("assets/fonts/Muller-Bold.woff2") format("woff2"), url("assets/fonts/Muller-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --golden:          #A47312;
+  --yellow:          #CC9933;
+  --orange:          #F0BF5F;
+  --white:           #FFFFFF;
+  --lightGray:       #F1F1F1;
+  --gray:            #999999;
+  --darkGray:        #666666;
+  --lightBlack:      #333333;
+  --black:           #000000;
+}
+
+body {
+  margin: 0;
+  color: var(--black);
+  background-color: var(--white);
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+input {
+  border: none;
+  background-color: transparent;
+}

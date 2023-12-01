@@ -1,0 +1,10 @@
+.header {
+  width: 100%;
+  background-color: var(--lightGray);
+}
+
+.container {
+  padding: 29px 15px 70px 15px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
